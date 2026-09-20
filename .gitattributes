@@ -1,0 +1,16 @@
+# Normalize line endings
+# Text file normalization
+*.min.js linguist-generated
+
+*.md linguist-documentation
+
+*.ts linguist-detectable
+*.bat text eol=crlf
+*.html linguist-vendored
+src/**/*.ts linguist-detectable
+* text=auto eol=lf
+*.woff binary
+
+node_modules/* linguist-vendored
+
+# eof 62587362
